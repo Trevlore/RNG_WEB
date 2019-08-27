@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Random Character</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<link rel='stylesheet' type='text/css' media='screen'
+		href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css'>
+
+</head>
+
+<body>
+
+
+	<h3 id='CharacterDescription' class="box">Random Charactor Generated</h3>
+	<div class="box columns" id='CharacterElements' >
+
+		<div class="box column">Background<br>
+			<label class="checkbox"><input type="checkbox" name="Class" value="Class"
+					checked="checked">Class</label>
+		</div>
+		
+		<div class="box column"><p class="title is-5">Physical Elements</p>
+			<label class="checkbox">Gender <input type="checkbox" checked="checked" name="Gender"
+					value="Gender"></label>
+		</div>
+
+		<div class="column">Personality</div>
+		<div class="column">Motivation</div>
+		<div class="column">Actions</div>
+	</div>
+
+
+
+
+	<input class="button is-primary" type="button" onclick="generateCharacter()" value="Generate Character">
+
+
+
+
+
+
+
+</body>
+<script src="data.js"></script>
+<script src='rng.js'></script>
+
+</html>

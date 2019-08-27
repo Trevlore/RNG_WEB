@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "${file}",
+            "webRoot": "$workspaceFolder"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch RNG",
+            "url": "C:\\Users\\Trevor\\Desktop\\Work\\RNG-WEB\\RandomCharacter.html",
+            "webRoot": "$workspaceFolder"
+        }
+    ]
+}
