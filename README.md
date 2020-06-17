@@ -1,1 +1,1 @@
-"# RNG_WEB" 
+Idea generator for character artists.
